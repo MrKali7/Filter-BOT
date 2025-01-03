@@ -10,7 +10,7 @@ from Script import script
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'TechVJBot')
+SESSION = environ.get('SESSION', 'FilterBot')
 API_ID = int(environ.get('API_ID', '21863401'))
 API_HASH = environ.get('API_HASH', '5f7d3dc656c008c70bffdf7f4f9b8ebb')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7896043595:AAHazTVihmc4uNzHRRyMpORaipaY5BHNWfo")
@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/goboxmovie')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/goboxmovie')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'goboxmovie') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/goboxmovie')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/GoBoxMoviez')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/GoBoxMoviez')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'GoBoxMoviez') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/iAdmin77_Bot')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -115,7 +115,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 VERIFY = bool(environ.get('VERIFY', True))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'offerlinks.in')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '2b491547a49b1d8274e9a619c8258029ef2b8bd0')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/goboxmovie')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/GoBoxMoviez')
 
 # If You Fill Second Shortner Then Bot Attach Both First And Second Shortner And Use It For Verify.
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
